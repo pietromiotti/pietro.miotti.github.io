@@ -3,5 +3,6 @@ title = "Me"
 template = "home.html"
 +++
 
-Hi, I'm Pietro. 
+Hey, I'm Pietro. 
+This is a work in progress. 
 
