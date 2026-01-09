@@ -13,12 +13,8 @@
 
     <main>
         {% block content %}
-        <h1>{{ config.title }}</h1>
-        <ul>
-        {% for page in section.pages %}
-            <li><a href="{{ page.permalink }}">{{ page.title }}</a> <span class="date">{{ page.date }}</span></li>
-        {% endfor %}
-        </ul>
+        <h1>{{ section.title }}</h1>
+        {{ section.content | safe }}
         {% endblock content %}
     </main>
 </body>
