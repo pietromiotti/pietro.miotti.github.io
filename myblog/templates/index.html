@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+    </nav>
+
+    <main>
+        {% block content %}
+        <h1>{{ config.title }}</h1>
+        <ul>
+        {% for page in section.pages %}
+            <li><a href="{{ page.permalink }}">{{ page.title }}</a> <span class="date">{{ page.date }}</span></li>
+        {% endfor %}
+        </ul>
+        {% endblock content %}
+    </main>
+</body>
+</html>
