@@ -16,5 +16,9 @@
 	<h1>{{ page.title }}</h1> {{ page.content | safe }}
         {% endblock content %}
     </main>
+
+    <footer>
+        <a href="https://twitter.com/{{ config.extra.twitter }}" target="_blank" rel="noopener noreferrer">@{{ config.extra.twitter }}</a>
+    </footer>
 </body>
 </html>
