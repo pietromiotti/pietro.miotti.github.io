@@ -4,6 +4,21 @@
     <meta charset="utf-8">
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     <link rel="stylesheet" href="{{ get_url(path='/style.css') }}">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:url" content="{{ page.permalink }}">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+    {% endif %}
+    {% if page.extra.image %}
+    <meta property="og:image" content="{{ page.permalink }}{{ page.extra.image }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ page.permalink }}{{ page.extra.image }}">
+    {% else %}
+    <meta name="twitter:card" content="summary">
+    {% endif %}
+    <meta name="twitter:site" content="@{{ config.extra.twitter }}">
 </head>
 <body>
     <nav>
@@ -13,7 +28,9 @@
 
     <main>
         {% block content %} 
-	<h1>{{ page.title }}</h1> {{ page.content | safe }}
+	<h1>{{ page.title }}</h1>
+	<p class="post-meta">{{ page.extra.read_time | default(value=page.reading_time) }} min read</p>
+	{{ page.content | safe }}
         {% endblock content %}
     </main>
 
