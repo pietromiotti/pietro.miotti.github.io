@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-    <link rel="stylesheet" href="{{ get_url(path='/style.css') }}">
+    <link rel="stylesheet" href="{{ get_url(path='style.css') }}?h={{ get_hash(path='style.css', sha_type=256, base64=false) | truncate(length=12, end='') }}">
 </head>
 <body>
     <nav>
