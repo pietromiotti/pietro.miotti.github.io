@@ -71,7 +71,7 @@ I was traveling in Peru, Gemini-ing about the history of the place, when I learn
 
 I brainstormed a bit with a few agents (Gemini, ChatGPT, Claude and Grok), and they all said [lidar](https://en.wikipedia.org/wiki/Lidar). From above, a ruin in the jungle is just a bunch of trees (like Machu Picchu before it was cleared), so satellite photos don't help much. Lidar, instead, fires laser pulses through the gaps in the canopy and maps the ground underneath.[^lidar]
 
-So the agents went looking for lidar data, and found that NASA has collected a lot of it with its [G-LiHT](https://gliht.gsfc.nasa.gov/) instrument, all in a huge open database. Unfortunately, Peru isn't covered, so the agents also found a company that does lidar surveys. I even considered hiring them, but I got lost in permits, costs and bureaucracy, and abandoned the idea.
+So the agents went looking for lidar data, and found that NASA has collected a lot of lidar data in a [huge open dataset](https://gliht.gsfc.nasa.gov/). Unfortunately, Peru isn't covered there, so the agents looked for a company that does lidar surveys instead. I even considered hiring one, but I got lost in permits, costs and bureaucracy, and gave up.
 
 Then I thought: why not the [Maya](https://en.wikipedia.org/wiki/Maya_civilization)? Their region is much better covered.
 
