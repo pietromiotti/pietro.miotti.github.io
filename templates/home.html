@@ -22,6 +22,12 @@
     <footer>
         <a href="https://twitter.com/{{ config.extra.twitter }}" target="_blank" rel="noopener noreferrer">@{{ config.extra.twitter }}</a>
     </footer>
+    <script>
+      // build email links in the browser so the address never appears in the page source
+      document.querySelectorAll('a.email-link').forEach(function (a) {
+        a.href = 'mailto:' + a.dataset.user + '@' + a.dataset.domain;
+      });
+    </script>
     <script data-goatcounter="https://pietromiotti.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
