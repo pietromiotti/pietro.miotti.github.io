@@ -1,8 +1,8 @@
 +++
 title = "My AI Agents Found an Unmapped Maya Site"
 description = "AI agents analyzed NASA lidar data overnight and found a Maya site under the jungle that isn't on any map. Less than 72 hours later, Mexico's INAH replied."
-date = 2026-11-02
-draft = true
+date = 2026-11-10
+draft = false
 
 [extra]
 image = "forest-vs-lidar.jpg"
