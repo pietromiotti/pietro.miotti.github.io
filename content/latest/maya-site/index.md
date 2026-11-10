@@ -178,9 +178,11 @@ For similar studies, have a look at how NASA's G-LiHT instrument works ([Cook et
 
 In the report I offered to help with a field check led by INAH. It's now up to the local INAH centre to decide whether to send a team. If they go, I'll post an update.
 
-## Things I've learned
+## What I've learned
 
-You can just do things. Pick an old problem, try the most obvious thing, throw some compute at it. I'm not an archaeologist, so I didn't know this was supposed to be hard, and that's probably why I tried at all. Being a naive outsider might be a superpower now.
+You can just do things. I'm not an archaeologist, so I didn't know this was supposed to be hard. I just picked an old problem, tried the most obvious thing and threw some compute at it. Being a naive outsider might be a superpower now.
+
+And I don't think this is really about archaeology. So far, most agentic AI stories have been about coding, math and physics, but it's much more general than that, and I hope this small example makes it a bit more obvious. We are on the brink of a revolution in all the sciences, and the only bottlenecks left will be curiosity and imagination (and compute).
 
 <p class="closing"><strong>At this point, we should probably lidar the whole planet and let the agents discover the rest.</strong></p>
 
