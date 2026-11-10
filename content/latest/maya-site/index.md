@@ -176,7 +176,7 @@ For similar studies, have a look at how NASA's G-LiHT instrument works ([Cook et
 
 ## What's next
 
-In the report I offered to help with a field check led by INAH. It's now up to the local INAH centre to decide whether to send a team. If they go, I'll post an update.
+In the report I offered to help with a field check led by INAH. In Mexico, archaeological sites are protected by federal law, and any fieldwork needs INAH's authorisation, so it's now up to the local INAH centre to decide whether to send a team. If they go, I'll post an update.
 
 ## What I've learned
 
