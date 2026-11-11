@@ -9,6 +9,8 @@ image = "forest-vs-lidar.jpg"
 read_time = 5
 +++
 
+*Update (11 November): it turns out the site had already been mapped in [Estrada-Belli et al. 2025](https://doi.org/10.1016/j.jasrep.2025.105288). The agents missed it while going through the literature, so they rediscovered it rather than discovered it (it just wasn't in INAH's register yet). Still work to do then!*
+
 By analyzing NASA lidar data, my AI agents discovered a Maya site in Mexico that, as far as anyone can tell, no one had reported before. It took **less than 72 hours** to go from a random thought while traveling to an official reply from the Mexican government. This is by far the best time ever to be alive.
 
 <figure>
