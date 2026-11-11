@@ -1,17 +1,18 @@
 +++
-title = "My AI Agents Found an Unmapped Maya Site"
-description = "AI agents analyzed NASA lidar data overnight and found a Maya site under the jungle that isn't on any map. Less than 72 hours later, Mexico's INAH replied."
+title = "My AI Agents (Re)discovered a Maya Site in 72 Hours"
+description = "AI agents analyzed public lidar data overnight and found a Maya site under the jungle. It turned out archaeologists had mapped it already, but it wasn't in Mexico's official register yet."
 date = 2026-11-10
 draft = false
 
 [extra]
 image = "forest-vs-lidar.jpg"
 read_time = 5
+last_edit = "11 Nov"
 +++
 
-*Update (11 November): it turns out the site had already been mapped in [Estrada-Belli et al. 2025](https://doi.org/10.1016/j.jasrep.2025.105288). The agents missed it while going through the literature, so they rediscovered it rather than discovered it (it just wasn't in INAH's register yet). Still work to do then!*
+*Update (11 November): it turns out the site had already been mapped in [Estrada-Belli et al. 2025](https://doi.org/10.1016/j.jasrep.2025.105288). The agents missed it while going through the literature, so they rediscovered it rather than discovered it (it just wasn't in the register of Mexico's National Institute of Anthropology and History, INAH, yet). Still work to do then! The rest of the story still holds.*
 
-By analyzing NASA lidar data, my AI agents discovered a Maya site in Mexico that, as far as anyone can tell, no one had reported before. It took **less than 72 hours** to go from a random thought while traveling to an official reply from the Mexican government. This is by far the best time ever to be alive.
+By analyzing NASA lidar data, my AI agents found a Maya site in Mexico that wasn't in the official register. (It turned out archaeologists had mapped it already, more on that at the end.) It took **less than 72 hours** to go from a random thought while traveling to an official reply from the Mexican government. This is by far the best time ever to be alive.
 
 <figure>
   <div class="compare" style="--pos: 50%;">
@@ -159,7 +160,7 @@ INAH replied: they checked their records and found **no registered archaeologica
   <figcaption>INAH's reply. The highlighted part: <em>"…no registered archaeological site was identified at the location given in your report."</em></figcaption>
 </figure>
 
-To be clear, it's not official yet. But as far as anyone can tell, nobody had put this one on a map before.
+At that point I thought nobody had put it on a map before. I was wrong (see below).
 
 ## So what was it?
 
@@ -172,15 +173,17 @@ I asked Gemini to imagine how it looked back then:
   <figcaption>How it might have looked around AD 700. Generated with Gemini from the lidar layout</figcaption>
 </figure>
 
-For similar studies, have a look at how NASA's G-LiHT instrument works ([Cook et al. 2013](https://doi.org/10.3390/rs5084045)) and how lidar collected for environmental research can be reused for archaeology ([Golden et al. 2016](https://doi.org/10.1016/j.jasrep.2016.07.029)). In 2024, archaeologists found a whole Maya city in Mexico this way ([Auld-Thomas et al. 2024](https://doi.org/10.15184/aqy.2024.148)), others used lidar to estimate how many people lived in the Maya lowlands ([Estrada-Belli et al. 2025](https://doi.org/10.1016/j.jasrep.2025.105288)), and another study found what may have been ancient Maya marketplaces ([Šprajc 2026](https://doi.org/10.1017/S0956536126100923)).
+For similar studies, have a look at how NASA's G-LiHT instrument works ([Cook et al. 2013](https://doi.org/10.3390/rs5084045)) and how lidar collected for environmental research can be reused for archaeology ([Golden et al. 2016](https://doi.org/10.1016/j.jasrep.2016.07.029)). In 2024, archaeologists found a whole Maya city in Mexico this way ([Auld-Thomas et al. 2024](https://doi.org/10.15184/aqy.2024.148)), others mapped settlements across the Maya lowlands, including this very site ([Estrada-Belli et al. 2025](https://doi.org/10.1016/j.jasrep.2025.105288)), and another study found what may have been ancient Maya marketplaces ([Šprajc 2026](https://doi.org/10.1017/S0956536126100923)).
 
 ## What's next
 
-In the report I offered to help with a field check led by INAH. In Mexico, archaeological sites are protected by federal law, and any fieldwork needs INAH's authorisation, so it's now up to the local INAH centre to decide whether to send a team. If they go, I'll post an update.
+The site is now in the hands of the people who should have it: Mexico's National Institute of Anthropology and History (INAH) and the archaeologists who mapped it first. If anything comes out of it, I'll post an update.
 
 ## What I've learned
 
 You can just do things. I'm not an archaeologist, so I didn't know this was supposed to be hard. I just picked an old problem, tried the most obvious thing and threw some compute at it. Being a naive outsider might be a superpower now.
+
+And it turned out professional archaeologists had already mapped the same site. I guess that's a good sign: an outsider with agents ended up in a similar place to the experts.
 
 And I don't think this is really about archaeology. So far, most agentic AI stories have been about coding, math and physics, but it's much more general than that, and I hope this small example makes it a bit more obvious. We are on the brink of a revolution in all the sciences, and the only bottlenecks left will be curiosity and imagination (and compute).
 
