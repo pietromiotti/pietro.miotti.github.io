@@ -56,7 +56,7 @@ By analyzing NASA lidar data, my AI agents found a Maya site in Mexico that wasn
   });
 </script>
 
-*Disclaimer: I'm not an archaeologist.*
+*Disclaimer: I'm not an archaeologist, and this was a personal project done on holiday with my own computational resources.*
 
 I'm going to tell this story as a diary, because the timeline is probably the best part.
 
